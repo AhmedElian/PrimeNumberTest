@@ -1,0 +1,9 @@
+Test Description,Number,Expected Result
+Check if negative number (-1) is prime,-1,FALSE
+Check if zero (0) is prime,0,FALSE
+Check if smallest prime (2) is prime,2,TRUE
+Check if odd prime (3) is prime,3,TRUE
+Check if even non-prime (4) is prime,4,FALSE
+Check if large prime (17) is prime,17,TRUE
+Check if non-prime (15) is prime,15,FALSE
+Check if edge case (1) is prime,1,FALSE
