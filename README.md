@@ -1,5 +1,8 @@
 🔢 Prime Number Test – Java + TestNG
 ------------------
+<img width="601" height="209" alt="image-20240503-081221" src="https://github.com/user-attachments/assets/7263c4c6-ec6a-496c-af8f-a7f633ce6e78" />
+
+------------------
 
 📌 Overview
 
