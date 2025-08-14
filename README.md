@@ -27,21 +27,23 @@ including negative numbers, zero, primes, non-primes, and edge cases.
 
 📁 src
 
-├── .gitignore                    # Files/folders ignored by git  
+├── .gitignore                       # Files/folders ignored by git  
 
-├── README.md                     # Project documentation  
+├── 📄 LICENSE                       # MIT License
 
-├── PrimeNumberChecker.java       # Prime number logic  
+├── 📄 PrimeNumberChecker.java       # Prime number logic  
 
-├── PrimeNumberCheckerTest.java   # TestNG Test Cases  
+├── 📄 PrimeNumberCheckerTest.java   # TestNG Test Cases  
 
-├── ReadCSV.java                  # CSV DataProvider for tests  
+├── 📄 data/PrimeNumberTest.csv      # CSV test data  
 
-├── data/PrimeNumberTest.csv      # CSV test data  
+├── 📄 README.md                     # Project documentation
 
-├── testng.xml                    # TestNG test suite configuration  
+├── 📄 ReadCSV.java                  # CSV DataProvider for tests   
 
-└── pom.xml                       # Maven Project Object Model  
+├── 📄 pom.xml                       # Maven Project Object Model  
+
+└── 📄 testng.xml                    # TestNG test suite configuration 
 
 ------------------
 
