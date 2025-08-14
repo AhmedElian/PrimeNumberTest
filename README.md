@@ -63,7 +63,7 @@ including negative numbers, zero, primes, non-primes, and edge cases.
 
 1- Clone the repository:
 
-  - git clone https://github.com/yourusername/PrimeNumberTestProject.git
+  - git clone [PrimeNumberTest](https://github.com/AhmedElian/PrimeNumberTest.git)
     
 2- Open the project in your IDE (IntelliJ / Eclipse / VS Code)
 
