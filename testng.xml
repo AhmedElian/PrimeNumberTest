@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Prime Number Test Suite">
+    <test name="Prime Number Tests">
+        <classes>
+            <class name="PrimeNumberCheckerTest"/>
+        </classes>
+    </test>
+</suite>
