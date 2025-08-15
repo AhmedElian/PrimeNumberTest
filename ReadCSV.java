@@ -8,32 +8,31 @@ import java.util.List;
 
 public class ReadCSV {
 
-    @DataProvider(name = "testData")
-    public Object[][] getCSVTestData() throws IOException {
-        List<Object[]> data = new ArrayList<>();
-        
-            InputStream isThread = Thread.currentThread().getContextClassLoader()
-                .getResourceAsStream("data/PrimeNumberTest.csv");
-            
+	@DataProvider(name = "testData")
+	public Object[][] getCSVTestData() throws IOException {
+		List<Object[]> data = new ArrayList<>();
 
-            BufferedReader buffR = new BufferedReader(new InputStreamReader(isThread));
-            String line;
-            boolean firstLine = true; // skip header
+		InputStream isThread = Thread.currentThread().getContextClassLoader()
+				.getResourceAsStream("data/PrimeNumberTest.csv");
 
-            while ((line = buffR.readLine()) != null) {
-                if (firstLine) { 
-                    firstLine = false; 
-                    continue; 
-                }
+		BufferedReader buffR = new BufferedReader(new InputStreamReader(isThread));
+		String line;
+		boolean firstLine = true; // skip header
 
-                String[] values = line.split(",");
-                String description = values[0].trim();
-                int number = Integer.parseInt(values[1].trim());
-                boolean expected = Boolean.parseBoolean(values[2].trim());
+		while ((line = buffR.readLine()) != null) {
+			if (firstLine) {
+				firstLine = false;
+				continue;
+			}
 
-                data.add(new Object[]{description, number, expected});
-            }
-          
-        return data.toArray(new Object[0][]);
-    }
+			String[] values = line.split(",");
+			String description = values[0].trim();
+			int number = Integer.parseInt(values[1].trim());
+			boolean expected = Boolean.parseBoolean(values[2].trim());
+
+			data.add(new Object[] { description, number, expected });
+		}
+
+		return data.toArray(new Object[0][]);
+	}
 }
